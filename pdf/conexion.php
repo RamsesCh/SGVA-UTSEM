@@ -1,6 +1,6 @@
 <?php
 	
-	$mysqli = new mysqli('localhost', 'root', '', 'sgvanew');
+	$mysqli = new mysqli('localhost', 'root', 'password', 'sgvanew');
 	
 	if($mysqli->connect_error){
 		
